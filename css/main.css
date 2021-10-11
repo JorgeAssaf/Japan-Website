@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fa98af;
+  font-family: 'Poppins', sans-serif;
+  width: 87%;
+  margin: 100px auto;
+}
+
+.header {
+  background-color: #f1d9f0;
+  background-image: url(/assets/img/japan-min.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 74rem 35rem;
+  margin-right: 30px;
+  width: 100%;
+  height: 35rem;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.header .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 20px;
+  margin-top: 20px;
+  justify-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 50px;
+  margin: auto;
+  font-style: none;
+}
+
+.header .navbar .btn-cta {
+  display: inline-block;
+  text-decoration: none;
+  color: #050505;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+.header .navbar .btn-cta:hover {
+  background: #f82500dc;
+  color: white;
+  -webkit-transition: all 590ms;
+  transition: all 590ms;
+}
+
+.header .navbar .btn-cta.I {
+  background: #f82500dc;
+}
+
+.header .navbar .btn-cta.I:hover {
+  background: #000;
+  color: white;
+}
+
+.header .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 400;
+  font-size: 110px;
+  -webkit-box-pack: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  top: 85px;
+  margin-left: 40px;
+}
+
+.container {
+  background-color: white;
+  padding: 2% 5%;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.subtitle {
+  margin: 15px 0;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.contenido {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.icono {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.btn-link {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 21px;
+  color: #0f0f0f;
+}
+
+.btn-link:hover {
+  border-bottom: 2.2px solid black;
+}
